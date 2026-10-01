@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BTC Sentinel: Explainable, Regime-Aware Bitcoin Forecasting & Crash Early-Warning System
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -426,3 +427,6 @@ pytest tests/ -v
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
+=======
+# Sentinel_BTC
+>>>>>>> 5908b26853b9b1b661d4810894f543b8e45eaf85
