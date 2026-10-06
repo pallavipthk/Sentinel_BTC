@@ -32,7 +32,7 @@ def main() -> None:
         print("-" * 65)
         print(f"1-Day Price Forecast:         ${out.forecast_price_1d:,.2f} ({out.expected_return_1d_pct:+.2f}%)")
         print(f"Statistical 95% Interval:     ${out.forecast_interval_95[0]:,.2f}  to  ${out.forecast_interval_95[1]:,.2f}")
-        print(f"Forecast Std Error:           ±${out.forecast_interval_error_std:,.2f}")
+        print(f"Forecast Std Error:           +/-${out.forecast_interval_error_std:,.2f}")
         print(f"Model Projections:            XGB: ${out.model_predictions['XGBoost']:,.2f} | ARIMA: ${out.model_predictions['ARIMA']:,.2f}")
         print("-" * 65)
         print(f"Forecast Volatility (GARCH):  {out.volatility_forecast_annualized_pct:.1f}% annualized [{out.volatility_regime}]")
